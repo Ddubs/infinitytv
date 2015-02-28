@@ -1,8 +1,0 @@
-[
-['[COLOR blue]Kids Collections[/COLOR]', '', '', '', 'ActivateWindow(10025,"plugin://plugin.video.phstreams/?url=http%3A%2F%2Fzenica.watchkodi.com%2FDirectories%2FKidz%2520Collectionz.xml&amp;mode=ndmode&amp;name=Kidz+Collectionz&amp;sound=",return)'],
-['[COLOR blue]Kids TV Shows[/COLOR]', '', '', '', 'ActivateWindow(10025,"plugin://plugin.video.phstreams/?url=http%3A%2F%2Fzenica.watchkodi.com%2FDirectories%2FKids%2520TV%2520Directory.xml&amp;mode=ndmode&amp;name=Kids+TV+Shows&amp;sound=",return)'],
-['[COLOR blue]Cartoons +[/COLOR]', '', '', '', 'ActivateWindow(10025,"plugin://plugin.video.cartoonhd",return)'],
-['[COLOR blue]Cartoonland[/COLOR]', '', '', '', 'ActivateWindow(10025,"plugin://plugin.video.phstreams/?url=http%3A%2F%2Fzenica.watchkodi.com%2FDirectories%2FCartoonland%2520Directory.xml&amp;mode=ndmode&amp;name=Cartoonland&amp;sound=",return)'],
-['[COLOR blue]Movie Magic[/COLOR]', '', '', '', 'ActivateWindow(10025,"plugin://plugin.video.movieshd/?url=http%3A%2F%2Fmovieshd.co%2Fwatch-online%2Fcategory%2Fdisneys%3Fdisplay%3Dtube%26filtre%3Ddate&amp;mode=1&amp;name=Disneys+Magic&amp;description=",return)'],
-['[COLOR blue]Disney Junior[/COLOR]', '', '', '', 'ActivateWindow(10025,"plugin://plugin.video.disneyjunior",return)']
-]
