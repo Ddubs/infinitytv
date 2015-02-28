@@ -1,0 +1,23 @@
+name="WARNING"
+url="https://the-gizmo.svn.beanstalkapp.com/itv/addons/plugin.video.gizmowizard/wizard_files/warning.txt"
+img="https://the-gizmo.svn.beanstalkapp.com/itv/addons/plugin.video.gizmowizard/wizard_files/thumbs/warning.png"
+fanart="https://the-gizmo.svn.beanstalkapp.com/itv/addons/plugin.video.gizmowizard/wizard_files/thumbs/fanart.jpg"
+description="Configure INFINITY TV with all the Best Goodies Available in Just One Click!
+WARNING: This tool will overwrite your current settings!"
+type="splash"
+
+name="Full RESTORE"
+url="https://bitbucket.org/skypeirish/filewizard/downloads/xbmc.zip"
+img="https://the-gizmo.svn.beanstalkapp.com/itv/addons/plugin.video.gizmowizard/wizard_files/thumbs/full_restore.png"
+fanart="https://the-gizmo.svn.beanstalkapp.com/itv/addons/plugin.video.gizmowizard/wizard_files/thumbs/fanart.jpg"
+description="Configure INFINITY TV with all the Best Goodies Available in Just One Click!
+WARNING: This tool will overwrite your current settings!"
+type="main"
+
+name="UPDATES"
+url="https://bitbucket.org/skypeirish/filewizard/downloads/xbmc.zip"
+img="https://the-gizmo.svn.beanstalkapp.com/itv/addons/plugin.video.gizmowizard/wizard_files/thumbs/updates.png"
+fanart="https://the-gizmo.svn.beanstalkapp.com/itv/addons/plugin.video.gizmowizard/wizard_files/thumbs/fanart.jpg"
+description="Configure INFINITY TV with all the Best Goodies Available in Just One Click!
+WARNING: This tool will update your INFINITY TV box!"
+type="main"

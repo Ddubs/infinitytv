@@ -1,0 +1,8 @@
+[
+['[COLOR blue]iTunes Podcasts[/COLOR]', '', '', '', 'ActivateWindow(10501,"plugin://plugin.video.itunes_podcasts",return)'],
+['[COLOR blue]VEVO[/COLOR]', '', '', '', 'ActivateWindow(10025,"plugin://plugin.video.vevo",return)'],
+['[COLOR blue]Radio[/COLOR]', '', '', '', 'ActivateWindow(10501,"plugin://plugin.audio.radio_de",return)'],
+['[COLOR blue]SoundCloud[/COLOR]', '', '', '', 'ActivateWindow(10501,"plugin://plugin.audio.soundcloud",return)'],
+['[COLOR blue]VEVO TV[/COLOR]', '', '', '', 'ActivateWindow(10501,"plugin://plugin.video.vevo_tv",return)'],
+['[COLOR blue]Pearl Jam Live[/COLOR]', '', '', '', 'ActivateWindow(10501,"plugin://plugin.audio.pearljamlive",return)']
+]

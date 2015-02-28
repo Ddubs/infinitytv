@@ -1,0 +1,12 @@
+[
+['[COLOR blue]RT News[/COLOR]', '', '', '', 'ActivateWindow(10025,"plugin://plugin.video.rt",return)'],
+['[COLOR blue]TMZ[/COLOR]', '', '', '', 'ActivateWindow(10025,"plugin://plugin.video.tmz",return)'],
+['[COLOR blue]CBS NEWS[/COLOR]', '', '', '', 'ActivateWindow(10025,"plugin://plugin.video.cbsnews_com",return)'],
+['[COLOR blue]TOP NEWS[/COLOR]', '', '', '', 'ActivateWindow(10025,"plugin://plugin.video.vdubt/?url=%5BCOLOR+green%5D--+NEWS+--%5B%2FCOLOR%5D++&amp;mode=1&amp;name=%5BCOLOR+green%5D--+NEWS+--%5B%2FCOLOR%5D&amp;iconimage=&amp;description=",return)'],
+['[COLOR blue]Fox News[/COLOR]', '', '', '', 'ActivateWindow(10025,"plugin://plugin.video.fox.news",return)'],
+['[COLOR blue]WSJ[/COLOR]', '', '', '', 'ActivateWindow(10025,"plugin://plugin.video.wsj",return)'],
+['[COLOR blue]TIME[/COLOR]', '', '', '', 'ActivateWindow(10025,"plugin://plugin.video.time_com",return)'],
+['[COLOR blue]The Onion[/COLOR]', '', '', '', 'ActivateWindow(10025,"plugin://plugin.video.theonion_com",return)'],
+['[COLOR blue]Nasa[/COLOR]', '', '', '', 'ActivateWindow(10025,"plugin://plugin.video.nasa",return)'],
+['[COLOR blue]TED Talks[/COLOR]', '', '', '', 'ActivateWindow(10025,"plugin://plugin.video.ted.talks",return)']
+]

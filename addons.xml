@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="plugin.video.aertv"
+       name="Irish TV Channels"
+       version="1.0.7d"
+       provider-name="barleyIndustries">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.beautifulsoup" version="3.0.8"/>
+    <import addon="script.module.simplejson" />
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>AerTV</summary>
+    <description>Watch Irish television. Includes RTE One, RTE Two, TV3, TG4, 3e, Others...</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.gizmowizard" version="0.0.2"
+	name="Gizmo Wizard" provider-name="None">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.addon.common" optional="true" />
+		<import addon="script.module.t0mm0.common" optional="true" />
+		<import addon="script.module.urlresolver" optional="true" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Gizmo Wizard</summary>
+		<description>Instantly configure your xbmc experience with all the best add-ons and goodies!  </description>
+		<platform>all</platform>
+		<forum></forum>
+		<website></website>
+	</extension>
+</addon>
+
+<addon
+    id="plugin.video.iplayer"
+    name="iPlayer"
+    version="2.6.3"
+    provider-name="Alastair, BuZz, Dink, dlake02">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.elementtree" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video audio</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">Watch TV and listen to radio from the BBC's iPlayer website</summary>
+        <description lang="en">
+            This XBMC plugin enables (UK only) the playing of TV and Radio catchup content from the BBC IPlayer website. Live radio and TV feeds are also supported.
+        </description>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <email>buzz at exotica org uk</email>
+        <website>http://code.google.com/p/xbmc-iplayerv2/</website>
+        <source>http://code.google.com/p/xbmc-iplayerv2/source/checkout</source>
+    </extension>
+</addon>
+
+<addon id="plugin.video.irishtv"
+       name="Irish TV"
+       version="2.1.5"
+       provider-name="mossy">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.socksipy" version="2.0.0"/>
+        <import addon="script.module.pyamf" version="0.6.1"/>
+    	<import addon="script.module.beautifulsoup" version="3.2.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource"
+               library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+	<language>en</language>
+        <platform>all</platform>
+        <summary>Irish TV On Demand</summary>
+        <description>Catchup with RTE, TV3, TG4 or watch live with AerTV.</description>
+        <disclaimer>May not work outside Ireland</disclaimer>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+        <forum>http://forum.xbmc.org/showthread.php?tid=152897</forum>
+        <website>http://code.google.com/p/mossy-xbmc-repo/</website>
+        <source>http://code.google.com/p/plugin-video-irishtv/source/browse/</source>
+    </extension>
+</addon>
+
+<addon id="plugin.video.itv" name="ITV" version="2.0.5b" provider-name="dlake02, Mikey1234">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>Plugin for ITV Player</summary>
+    <description>ITV Player Front End</description>
+  </extension>
+</addon>
+
+<addon id="plugin.video.rteplayer"
+       name="RTE Player"
+       version="1.0.9"
+       provider-name="slacklinucs@gmail.com">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.simplejson" version="2.0.10"/>
+    <import addon="script.module.beautifulsoup" version="3.0.8"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video audio</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Watch RTE shows</summary>
+    <description lang="en">Watch RTE shows</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon
+  id="pvr.iptvsimple 2"
+  version="1.9.3"
+  name="PVR IPTV Simple Client 2"
+  provider-name="nightik">
+  <requires>
+    <c-pluff version="0.1"/>
+    <import addon="xbmc.pvr" version="1.9.0"/>
+  </requires>
+  <extension
+    point="xbmc.pvrclient"
+    library_linux="XBMC_IPTV_Simple.pvr"
+    library_osx="XBMC_IPTV_Simple.pvr"
+    library_freebsd="XBMC_IPTV_Simple.pvr"
+    library_wingl="XBMC_IPTV_Simple_win32.dll"
+    library_windx="XBMC_IPTV_Simple_win32.dll"
+    library_android="libXBMC_IPTV_Simple.so" />
+  <extension point="xbmc.service" library="service.py" start="login"/>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">XBMC PVR addon for IPTV support. https://github.com/afedchin/xbmc-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
+    <summary lang="ru">XBMC PVR аддон для поддержки IPTV.  https://github.com/afedchin/xbmc-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
+    <description lang="en">IPTV Simple PVR Client support m3u playlists, streaming of Live TV for multicast/unicast sources, listening to Radio channels and EPG.</description>
+    <description lang="ru">Интерфейс для IPTV. Поддерживает просмотр потокового ТВ для юникаст/мультикаст источников, прослушивание радиоканалов и работу с электронным телегидом.</description>
+    <disclaimer lang="en">This is unstable software! The authors are in no way responsible for failed playings, incorrect EPG times, wasted hours, or any other undesirable effects.</disclaimer>
+    <disclaimer lang="ru">Это нестабильная программа! Авторы не несут ответственности за неудачные воспроизведение, неверные время EPG, потраченное время и прочие нежелательные эффекты.</disclaimer>
+    <platform>wingl windx</platform>
+  </extension>
+</addon>
+
+<addon id="repository.irishtvtwo" name="Irish Television XBMC Plugins" version="1.0.8" provider-name="IrishTv">
+	<extension point="xbmc.addon.repository" name="Irish Television XBMC Plugins">
+		<info compressed="false">https://the-gizmo.svn.beanstalkapp.com/itv/addons/addons.xml</info>
+		<checksum>https://the-gizmo.svn.beanstalkapp.com/itv/addons/addons.xml.md5</checksum>
+		<datadir zip="true">https://the-gizmo.svn.beanstalkapp.com/itv/addons</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install Add-ons from Irish-TV Repository</summary>
+		<description>Irish Television video plug-ins for XBMC</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.mossy"
+        name="Mossy's Frodo Add-ons"
+        version="2.0.7"
+        provider-name="mossy">
+    <extension point="xbmc.addon.repository"
+        name="Mossy's Add-ons">
+        <info compressed="false">http://mossy-xbmc-repo.googlecode.com/git/release/addons.xml</info>
+        <checksum>http://mossy-xbmc-repo.googlecode.com/git/release/addons.xml.md5</checksum>
+        <datadir zip="true">http://mossy-xbmc-repo.googlecode.com/git/release</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Install add-ons from Mossys add-on repository</summary>
+        <description>Home of Irish TV Player &amp; 4oD</description>
+        <disclaimer>If it breaks, you get to keep the pieces</disclaimer>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="repository.sports" name="Sports Repository" version="1.1" provider-name="Sports Repository">
+	<extension point="xbmc.addon.repository" name="Sports Repository">
+		<info compressed="false">http://dl.dropbox.com/u/35759481/sports/addons.xml</info>
+		<checksum>http://dl.dropbox.com/u/35759481/sports/addons.xml.md5</checksum>
+		<datadir zip="true">http://dl.dropbox.com/u/35759481/sports</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>All Sports Repository</summary>
+		<description>All Sports Repository</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.tlbb-usa" name="The Gizmo Repository" version="1.0.1" provider-name="The Gizmo">
+	<extension point="xbmc.addon.repository" name="The Gizmo Repository">
+		<info compressed="false">http://31.209.96.27/tlbb/USA/addons.xml</info>
+		<checksum>http://31.209.96.27/tlbb/USA/addons.xml.md5</checksum>
+		<datadir zip="true">http://31.209.96.27/tlbb/USA/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>The Gizmo Repository</summary>
+		<description>The Gizmo Repository</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="script.module.cmpl" name="Extra Language Strings for pkscout's Confluence Mod" version="1.0.2" provider-name="pkscout">
+	<requires>
+		<import addon="xbmc.python" version="2.14.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="default.py" />
+	<extension point="xbmc.addon.metadata">
+		<summary>Extra Language Strings for pkscout's Confluence Mod</summary>
+		<description>These are extra language strings I didn't want to find space to squeeze into the existing Confluence language files.</description>
+		<platform>all</platform>
+		<language></language>
+		<license></license>
+		<forum></forum>
+		<website></website>
+		<source></source>
+		<email></email>
+	</extension>
+</addon>
+
+<addon id="script.module.urlresolver"
+     name="urlresolver"
+     version="2.5.0"
+     provider-name="Eldorado">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+    <import addon="script.module.t0mm0.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="4.4.7"/>
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Resolve common video host URL's to be playable in XBMC.</summary>
+    <description lang="en">Resolve common video host URL's to be playable in XBMC, simplify addon development of video plugins requiring multi video hosts.</description>
+  </extension>
+</addon>
+
+<addon id="script.overplay.login"
+       name="OverplayAutoLogin"
+       version="1.1"
+       provider-name="barleyIndustries">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.service"
+             library="default.py" start="login">
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Overplay.Net SmartDNS Auto-Login</summary>
+  </extension>
+
+  <extension point="xbmc.python.script"
+  library="default.py"/>
+
+</addon>
+
+<addon id="script.xbmc.pandora"
+       name="Pandora"
+       version="1.2.11-git"
+       provider-name="spbogie">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.script"
+             library="default.py">
+    <provides>audio</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Pandora Radio</summary>
+    <description lang="en">Pandora Internet Radio for XBMC.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="skin.confluence.gotham.irishtv.mod" version="1.1.0" name="Confluence Gotham Mods by The Gizmo" provider-name="The Gizmo">
+	<requires>
+		<import addon="xbmc.gui" version="5.0.0"/>
+		<import addon="script.module.cmpl" version="1.0.1"/>
+		<import addon="script.artistslideshow" version="1.6.8"/>
+		<import addon="service.skin.widgets" version="0.0.29"/>
+	</requires>
+	<extension point="xbmc.gui.skin" defaultthemename="textures.xbt" debugging="false" effectslowdown="0.75">
+		<res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">A modified Confluence skin</summary>
+		<description lang="en"></description>
+		<disclaimer lang="en"></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+</addons>

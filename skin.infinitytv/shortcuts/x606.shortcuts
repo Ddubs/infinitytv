@@ -1,0 +1,14 @@
+[
+['[COLOR blue]Extreme Sports[/COLOR]', '', '', '', 'ActivateWindow(10025,"plugin://plugin.video.extreme.com",return)'],
+['[COLOR blue]Sport Pick[/COLOR]', '', '', '', 'ActivateWindow(10025,"plugin://plugin.video.SportsDevil/?mode=1&amp;item=title%3DLive%2BSports%26url%3Dlivesports.cfg%26definedIn%3DmainMenu.cfg%26director%3DSportsDevil%26genre%3DLive%2BSports%26type%3Drss%26icon%3D%252Fmnt%252Finternal_sd%252FAndroid%252Fdata%252Forg.xbmc.xbmc%252Ffiles%252F.xbmc%252Faddons%252Fplugin.video.SportsDevil%252Fresources%252Fimages%252Flivesports.png",return)'],
+['[COLOR blue]Live Sports[/COLOR]', '', '', '', 'ActivateWindow(10025,"plugin://plugin.video.SportsDevil/?mode=1&amp;item=title%3DiLive.to-Sports%26url%3Dtv%252Filive.to-sports.cfg%26definedIn%3Dtv.cfg%26director%3Dilive.to-sports%26genre%3DTV%26type%3Drss%26icon%3Dhttp%253A%252F%252Ftinyurl.com%252Fcefh6w3",return)'],
+['[COLOR blue]NHL On-Demand[/COLOR]', '', '', '', 'ActivateWindow(10025,"plugin://plugin.video.nhlondemand",return)'],
+['[COLOR blue]NBA On-Demand[/COLOR]', '', '', '', 'ActivateWindow(10025,"plugin://plugin.video.nbaondemand",return)'],
+['[COLOR blue]NBA Replays[/COLOR]', '', '', '', 'ActivateWindow(10025,"plugin://plugin.video.nbareplays",return)'],
+['[COLOR blue]NFL Teams[/COLOR]', '', '', '', 'ActivateWindow(10025,"plugin://plugin.video.nfl-teams",return)'],
+['[COLOR blue]Fight TV[/COLOR]', '', '', '', 'ActivateWindow(10025,"plugin://plugin.video.phstreams/?url=http%3A%2F%2Fbanjaluka.watchkodi.com%2FUFC.xml&amp;mode=ndmode&amp;name=%5BCOLOR+orange%5DFight%5B%2FCOLOR%5D+%5BCOLOR+red%5D+Updated+01%2F02%2F15%2F%5B%2FCOLOR%5D&amp;sound=",return)'],
+['[COLOR blue]UFC[/COLOR]', '', '', '', 'ActivateWindow(10025,"plugin://plugin.video.UFC",return)'],
+['[COLOR blue]Soccer Replays[/COLOR]', '', '', '', 'ActivateWindow(10025,"plugin://plugin.video.footballreplays",return)'],
+['[COLOR blue]Soccer Today[/COLOR]', '', '', '', 'ActivateWindow(10025,"plugin://plugin.video.football.today",return)'],
+['[COLOR blue]WWE Online[/COLOR]', '', '', '', 'ActivateWindow(10025,"plugin://plugin.video.wweonline",return)']
+]

@@ -1,0 +1,1883 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<includes>
+	<include name="skinshortcuts-mainmenu" />
+	<include />
+	<include name="skinshortcuts-submenu">
+		<item id="1">
+			<label>[COLOR blue]iTunes Podcasts[/COLOR]</label>
+			<label2 />
+			<icon />
+			<thumb />
+			<property name="labelID">plugin.video.itunes_podcasts</property>
+			<property name="defaultID">plugin.video.itunes_podcasts</property>
+			<onclick>ActivateWindow(10501,"plugin://plugin.video.itunes_podcasts",return)</onclick>
+			<property name="path">ActivateWindow(10501,"plugin://plugin.video.itunes_podcasts",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Container(9000).ListItem.Property(submenuVisibility),x5)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x5</property>
+		</item>
+		<item id="2">
+			<label>[COLOR blue]VEVO[/COLOR]</label>
+			<label2 />
+			<icon />
+			<thumb />
+			<property name="labelID">plugin.video.vevo</property>
+			<property name="defaultID">plugin.video.vevo</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.vevo",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.vevo",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Container(9000).ListItem.Property(submenuVisibility),x5)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x5</property>
+		</item>
+		<item id="3">
+			<label>[COLOR blue]Radio[/COLOR]</label>
+			<label2 />
+			<icon />
+			<thumb />
+			<property name="labelID">plugin.audio.radio_de</property>
+			<property name="defaultID">plugin.audio.radio_de</property>
+			<onclick>ActivateWindow(10501,"plugin://plugin.audio.radio_de",return)</onclick>
+			<property name="path">ActivateWindow(10501,"plugin://plugin.audio.radio_de",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Container(9000).ListItem.Property(submenuVisibility),x5)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x5</property>
+		</item>
+		<item id="4">
+			<label>[COLOR blue]SoundCloud[/COLOR]</label>
+			<label2 />
+			<icon />
+			<thumb />
+			<property name="labelID">plugin.audio.soundcloud</property>
+			<property name="defaultID">plugin.audio.soundcloud</property>
+			<onclick>ActivateWindow(10501,"plugin://plugin.audio.soundcloud",return)</onclick>
+			<property name="path">ActivateWindow(10501,"plugin://plugin.audio.soundcloud",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Container(9000).ListItem.Property(submenuVisibility),x5)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x5</property>
+		</item>
+		<item id="5">
+			<label>[COLOR blue]VEVO TV[/COLOR]</label>
+			<label2 />
+			<icon />
+			<thumb />
+			<property name="labelID">plugin.video.vevo_tv</property>
+			<property name="defaultID">plugin.video.vevo_tv</property>
+			<onclick>ActivateWindow(10501,"plugin://plugin.video.vevo_tv",return)</onclick>
+			<property name="path">ActivateWindow(10501,"plugin://plugin.video.vevo_tv",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Container(9000).ListItem.Property(submenuVisibility),x5)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x5</property>
+		</item>
+		<item id="6">
+			<label>[COLOR blue]Pearl Jam Live[/COLOR]</label>
+			<label2 />
+			<icon />
+			<thumb />
+			<property name="labelID">plugin.audio.pearljamlive</property>
+			<property name="defaultID">plugin.audio.pearljamlive</property>
+			<onclick>ActivateWindow(10501,"plugin://plugin.audio.pearljamlive",return)</onclick>
+			<property name="path">ActivateWindow(10501,"plugin://plugin.audio.pearljamlive",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Container(9000).ListItem.Property(submenuVisibility),x5)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x5</property>
+		</item>
+		<item id="1">
+			<label>Exit</label>
+			<label2>Kodi Command</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<property name="labelID">exit</property>
+			<property name="defaultID">13013</property>
+			<onclick>Reboot</onclick>
+			<property name="path">Reboot</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Container(9000).ListItem.Property(submenuVisibility),x6)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x6</property>
+		</item>
+		<item id="1">
+			<label>[COLOR blue]1Channel[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.1channel%2ficon.png/</thumb>
+			<property name="labelID">plugin.video.1channel</property>
+			<property name="defaultID">plugin.video.1channel</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.1channel",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.1channel",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Container(9000).ListItem.Property(submenuVisibility),x11)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x11</property>
+		</item>
+		<item id="2">
+			<label>[COLOR blue]Genesis[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.genesis%2ficon.png/</thumb>
+			<property name="labelID">plugin.video.genesis</property>
+			<property name="defaultID">plugin.video.genesis</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.genesis",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.genesis",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Container(9000).ListItem.Property(submenuVisibility),x11)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x11</property>
+		</item>
+		<item id="3">
+			<label>[COLOR blue]iSTREAM[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultAddon.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fscript.icechannel%2ficon.png/</thumb>
+			<property name="labelID">script.icechannel</property>
+			<property name="defaultID">script.icechannel</property>
+			<onclick>RunAddOn(script.icechannel)</onclick>
+			<property name="path">RunAddOn(script.icechannel)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Container(9000).ListItem.Property(submenuVisibility),x11)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x11</property>
+		</item>
+		<item id="4">
+			<label>[COLOR blue]Movies HD[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.movieshd%2ficon.png/</thumb>
+			<property name="labelID">plugin.video.movieshd</property>
+			<property name="defaultID">plugin.video.movieshd</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.movieshd",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.movieshd",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Container(9000).ListItem.Property(submenuVisibility),x11)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x11</property>
+		</item>
+		<item id="5">
+			<label>[COLOR blue]Ororo TV[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.ororotv%2ficon.png/</thumb>
+			<property name="labelID">plugin.video.ororotv</property>
+			<property name="defaultID">plugin.video.ororotv</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.ororotv",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.ororotv",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Container(9000).ListItem.Property(submenuVisibility),x11)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x11</property>
+		</item>
+		<item id="6">
+			<label>[COLOR blue]Cliq![/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.moviedb%2ficon.png/</thumb>
+			<property name="labelID">plugin.video.moviedb</property>
+			<property name="defaultID">plugin.video.moviedb</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.moviedb",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.moviedb",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Container(9000).ListItem.Property(submenuVisibility),x11)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x11</property>
+		</item>
+		<item id="7">
+			<label>[COLOR blue]Online Movies Pro[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.onlinemovies%2ficon.png/</thumb>
+			<property name="labelID">plugin.video.onlinemovies</property>
+			<property name="defaultID">plugin.video.onlinemovies</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.onlinemovies",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.onlinemovies",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Container(9000).ListItem.Property(submenuVisibility),x11)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x11</property>
+		</item>
+		<item id="8">
+			<label>[COLOR blue]Project Free TV[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.projectfreetv%2ficon.png/</thumb>
+			<property name="labelID">plugin.video.projectfreetv</property>
+			<property name="defaultID">plugin.video.projectfreetv</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.projectfreetv",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.projectfreetv",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Container(9000).ListItem.Property(submenuVisibility),x11)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x11</property>
+		</item>
+		<item id="9">
+			<label>[COLOR blue]Foreign Cinema[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://http%3a%2f%2fs22.postimg.org%2ffchu1m6bl%2fONEFOREIGN.png/</thumb>
+			<property name="labelID">colorblue-foreigncinema-color</property>
+			<property name="defaultID" />
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.phstreams/?url=http%3A%2F%2Fgibraltar.watchkodi.com%2FForeignCinema%2FForeignCinemaDirectory.xml&amp;mode=ndmode&amp;name=Foreign+Cinema&amp;sound=",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.phstreams/?url=http%3A%2F%2Fgibraltar.watchkodi.com%2FForeignCinema%2FForeignCinemaDirectory.xml&amp;mode=ndmode&amp;name=Foreign+Cinema&amp;sound=",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Container(9000).ListItem.Property(submenuVisibility),x11)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x11</property>
+		</item>
+		<item id="1">
+			<label>[COLOR blue]RT News[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.rt%2ficon.png/</thumb>
+			<property name="labelID">plugin.video.rt</property>
+			<property name="defaultID">plugin.video.rt</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.rt",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.rt",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Container(9000).ListItem.Property(submenuVisibility),x101)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x101</property>
+		</item>
+		<item id="2">
+			<label>[COLOR blue]TMZ[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.tmz%2ficon.png/</thumb>
+			<property name="labelID">plugin.video.tmz</property>
+			<property name="defaultID">plugin.video.tmz</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.tmz",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.tmz",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Container(9000).ListItem.Property(submenuVisibility),x101)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x101</property>
+		</item>
+		<item id="3">
+			<label>[COLOR blue]CBS News[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.cbsn%2ficon.png/</thumb>
+			<property name="labelID">plugin.video.cbsn</property>
+			<property name="defaultID">plugin.video.cbsn</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.cbsn",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.cbsn",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Container(9000).ListItem.Property(submenuVisibility),x101)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x101</property>
+		</item>
+		<item id="4">
+			<label>[COLOR blue]TOP NEWS[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.vdubt%2ficon.png/</thumb>
+			<property name="labelID">colorblue-topnews-color</property>
+			<property name="defaultID" />
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.vdubt/?url=%5BCOLOR+green%5D--+NEWS+--%5B%2FCOLOR%5D++&amp;mode=1&amp;name=%5BCOLOR+green%5D--+NEWS+--%5B%2FCOLOR%5D&amp;iconimage=&amp;description=",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.vdubt/?url=%5BCOLOR+green%5D--+NEWS+--%5B%2FCOLOR%5D++&amp;mode=1&amp;name=%5BCOLOR+green%5D--+NEWS+--%5B%2FCOLOR%5D&amp;iconimage=&amp;description=",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Container(9000).ListItem.Property(submenuVisibility),x101)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x101</property>
+		</item>
+		<item id="5">
+			<label>[COLOR blue]Fox News[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.fox.news%2ficon.png/</thumb>
+			<property name="labelID">plugin.video.fox.news</property>
+			<property name="defaultID">plugin.video.fox.news</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.fox.news",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.fox.news",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Container(9000).ListItem.Property(submenuVisibility),x101)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x101</property>
+		</item>
+		<item id="6">
+			<label>[COLOR blue]WSJ[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.wsj%2ficon.png/</thumb>
+			<property name="labelID">plugin.video.wsj</property>
+			<property name="defaultID">plugin.video.wsj</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.wsj",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.wsj",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Container(9000).ListItem.Property(submenuVisibility),x101)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x101</property>
+		</item>
+		<item id="7">
+			<label>[COLOR blue]TIME[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.time_com%2ficon.png/</thumb>
+			<property name="labelID">plugin.video.time_com</property>
+			<property name="defaultID">plugin.video.time_com</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.time_com",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.time_com",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Container(9000).ListItem.Property(submenuVisibility),x101)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x101</property>
+		</item>
+		<item id="8">
+			<label>[COLOR blue]The Onion[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.theonion_com%2ficon.png/</thumb>
+			<property name="labelID">plugin.video.theonion_com</property>
+			<property name="defaultID">plugin.video.theonion_com</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.theonion_com",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.theonion_com",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Container(9000).ListItem.Property(submenuVisibility),x101)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x101</property>
+		</item>
+		<item id="9">
+			<label>[COLOR blue]Nasa[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.nasa%2ficon.png/</thumb>
+			<property name="labelID">plugin.video.nasa</property>
+			<property name="defaultID">plugin.video.nasa</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.nasa",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.nasa",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Container(9000).ListItem.Property(submenuVisibility),x101)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x101</property>
+		</item>
+		<item id="10">
+			<label>[COLOR blue]TED Talks[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.ted.talks%2ficon.png/</thumb>
+			<property name="labelID">plugin.video.ted.talks</property>
+			<property name="defaultID">plugin.video.ted.talks</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.ted.talks",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.ted.talks",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Container(9000).ListItem.Property(submenuVisibility),x101)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x101</property>
+		</item>
+		<item id="1">
+			<label>[COLOR blue]Kids Collections[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://http%3a%2f%2fs20.postimg.org%2fgfuvon34t%2fKidz_Collectionz.png/</thumb>
+			<property name="labelID">colorblue-kidscollections-color</property>
+			<property name="defaultID" />
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.phstreams/?url=http%3A%2F%2Fzenica.watchkodi.com%2FDirectories%2FKidz%2520Collectionz.xml&amp;mode=ndmode&amp;name=Kidz+Collectionz&amp;sound=",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.phstreams/?url=http%3A%2F%2Fzenica.watchkodi.com%2FDirectories%2FKidz%2520Collectionz.xml&amp;mode=ndmode&amp;name=Kidz+Collectionz&amp;sound=",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Container(9000).ListItem.Property(submenuVisibility),x303)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x303</property>
+		</item>
+		<item id="2">
+			<label>[COLOR blue]Kids TV Shows[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://http%3a%2f%2fs20.postimg.org%2fyvwkmmae5%2fKids_TV_Shows_256x256.jpg/</thumb>
+			<property name="labelID">colorblue-kidstvshows-color</property>
+			<property name="defaultID" />
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.phstreams/?url=http%3A%2F%2Fzenica.watchkodi.com%2FDirectories%2FKids%2520TV%2520Directory.xml&amp;mode=ndmode&amp;name=Kids+TV+Shows&amp;sound=",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.phstreams/?url=http%3A%2F%2Fzenica.watchkodi.com%2FDirectories%2FKids%2520TV%2520Directory.xml&amp;mode=ndmode&amp;name=Kids+TV+Shows&amp;sound=",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Container(9000).ListItem.Property(submenuVisibility),x303)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x303</property>
+		</item>
+		<item id="3">
+			<label>[COLOR blue]Cartoons +[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.cartoonhd%2ficon.png/</thumb>
+			<property name="labelID">plugin.video.cartoonhd</property>
+			<property name="defaultID">plugin.video.cartoonhd</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.cartoonhd",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.cartoonhd",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Container(9000).ListItem.Property(submenuVisibility),x303)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x303</property>
+		</item>
+		<item id="4">
+			<label>[COLOR blue]Cartoonland[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://http%3a%2f%2fi41.tinypic.com%2fjpa2s0.jpg/</thumb>
+			<property name="labelID">colorblue-cartoonland-color</property>
+			<property name="defaultID" />
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.phstreams/?url=http%3A%2F%2Fzenica.watchkodi.com%2FDirectories%2FCartoonland%2520Directory.xml&amp;mode=ndmode&amp;name=Cartoonland&amp;sound=",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.phstreams/?url=http%3A%2F%2Fzenica.watchkodi.com%2FDirectories%2FCartoonland%2520Directory.xml&amp;mode=ndmode&amp;name=Cartoonland&amp;sound=",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Container(9000).ListItem.Property(submenuVisibility),x303)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x303</property>
+		</item>
+		<item id="5">
+			<label>[COLOR blue]Movie Magic[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.movieshd%2ficon.PNG/</thumb>
+			<property name="labelID">colorblue-moviemagic-color</property>
+			<property name="defaultID" />
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.movieshd/?url=http%3A%2F%2Fmovieshd.co%2Fwatch-online%2Fcategory%2Fdisneys%3Fdisplay%3Dtube%26filtre%3Ddate&amp;mode=1&amp;name=Disneys+Magic&amp;description=",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.movieshd/?url=http%3A%2F%2Fmovieshd.co%2Fwatch-online%2Fcategory%2Fdisneys%3Fdisplay%3Dtube%26filtre%3Ddate&amp;mode=1&amp;name=Disneys+Magic&amp;description=",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Container(9000).ListItem.Property(submenuVisibility),x303)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x303</property>
+		</item>
+		<item id="6">
+			<label>[COLOR blue]Disney Junior[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.disneyjunior%2ficon.png/</thumb>
+			<property name="labelID">plugin.video.disneyjunior</property>
+			<property name="defaultID">plugin.video.disneyjunior</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.disneyjunior",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.disneyjunior",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Container(9000).ListItem.Property(submenuVisibility),x303)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x303</property>
+		</item>
+		<item id="1">
+			<label>[COLOR blue]FilmOn[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.filmon%2ficon.png/</thumb>
+			<property name="labelID">plugin.video.filmon</property>
+			<property name="defaultID">plugin.video.filmon</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.filmon",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.filmon",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Container(9000).ListItem.Property(submenuVisibility),x404)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x404</property>
+		</item>
+		<item id="2">
+			<label>[COLOR blue]Vdubt25[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.vdubt%2ficon.png/</thumb>
+			<property name="labelID">plugin.video.vdubt</property>
+			<property name="defaultID">plugin.video.vdubt</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.vdubt",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.vdubt",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Container(9000).ListItem.Property(submenuVisibility),x404)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x404</property>
+		</item>
+		<item id="3">
+			<label>[COLOR blue]HALOW LIVE[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.Halow%2ficon.png/</thumb>
+			<property name="labelID">plugin.video.Halow</property>
+			<property name="defaultID">plugin.video.Halow</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.Halow",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.Halow",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Container(9000).ListItem.Property(submenuVisibility),x404)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x404</property>
+		</item>
+		<item id="4">
+			<label>[COLOR blue]International[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://http%3a%2f%2falaska.watchkodi.com%2fcrusader88A.png/</thumb>
+			<property name="labelID">colorblue-international-color</property>
+			<property name="defaultID" />
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.phstreams/?url=http%3A%2F%2Falaska.watchkodi.com%2Fmaindir%2Fmain2.xml&amp;mode=dmode&amp;name=International+Channels&amp;sound=",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.phstreams/?url=http%3A%2F%2Falaska.watchkodi.com%2Fmaindir%2Fmain2.xml&amp;mode=dmode&amp;name=International+Channels&amp;sound=",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Container(9000).ListItem.Property(submenuVisibility),x404)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x404</property>
+		</item>
+		<item id="5">
+			<label>[COLOR blue]World Tv[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.mikeytv%2ficon.png/</thumb>
+			<property name="labelID">plugin.video.mikeytv</property>
+			<property name="defaultID">plugin.video.mikeytv</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.mikeytv",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.mikeytv",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Container(9000).ListItem.Property(submenuVisibility),x404)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x404</property>
+		</item>
+		<item id="1">
+			<label>[COLOR blue]Extreme Sports[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.extreme.com%2ficon.png/</thumb>
+			<property name="labelID">plugin.video.extreme.com</property>
+			<property name="defaultID">plugin.video.extreme.com</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.extreme.com",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.extreme.com",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Container(9000).ListItem.Property(submenuVisibility),x606)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x606</property>
+		</item>
+		<item id="2">
+			<label>[COLOR blue]Sport Pick[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.SportsDevil%2fresources%2fimages%2flivesports.png/</thumb>
+			<property name="labelID">colorblue-sportpick-color</property>
+			<property name="defaultID" />
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.SportsDevil/?mode=1&amp;item=title%3DLive%2BSports%26url%3Dlivesports.cfg%26definedIn%3DmainMenu.cfg%26director%3DSportsDevil%26genre%3DLive%2BSports%26type%3Drss%26icon%3D%252Fmnt%252Finternal_sd%252FAndroid%252Fdata%252Forg.xbmc.xbmc%252Ffiles%252F.xbmc%252Faddons%252Fplugin.video.SportsDevil%252Fresources%252Fimages%252Flivesports.png",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.SportsDevil/?mode=1&amp;item=title%3DLive%2BSports%26url%3Dlivesports.cfg%26definedIn%3DmainMenu.cfg%26director%3DSportsDevil%26genre%3DLive%2BSports%26type%3Drss%26icon%3D%252Fmnt%252Finternal_sd%252FAndroid%252Fdata%252Forg.xbmc.xbmc%252Ffiles%252F.xbmc%252Faddons%252Fplugin.video.SportsDevil%252Fresources%252Fimages%252Flivesports.png",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Container(9000).ListItem.Property(submenuVisibility),x606)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x606</property>
+		</item>
+		<item id="3">
+			<label>[COLOR blue]NHL On-Demand[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.nhlondemand%2ficon.png/</thumb>
+			<property name="labelID">plugin.video.nhlondemand</property>
+			<property name="defaultID">plugin.video.nhlondemand</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.nhlondemand",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.nhlondemand",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Container(9000).ListItem.Property(submenuVisibility),x606)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x606</property>
+		</item>
+		<item id="4">
+			<label>[COLOR blue]NBA On-Demand[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.nbaondemand%2ficon.png/</thumb>
+			<property name="labelID">plugin.video.nbaondemand</property>
+			<property name="defaultID">plugin.video.nbaondemand</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.nbaondemand",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.nbaondemand",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Container(9000).ListItem.Property(submenuVisibility),x606)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x606</property>
+		</item>
+		<item id="5">
+			<label>[COLOR blue]NBA Replays[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.nbareplays%2ficon.png/</thumb>
+			<property name="labelID">plugin.video.nbareplays</property>
+			<property name="defaultID">plugin.video.nbareplays</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.nbareplays",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.nbareplays",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Container(9000).ListItem.Property(submenuVisibility),x606)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x606</property>
+		</item>
+		<item id="6">
+			<label>[COLOR blue]NFL Teams[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.nfl-teams%2ficon.png/</thumb>
+			<property name="labelID">plugin.video.nfl-teams</property>
+			<property name="defaultID">plugin.video.nfl-teams</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.nfl-teams",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.nfl-teams",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Container(9000).ListItem.Property(submenuVisibility),x606)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x606</property>
+		</item>
+		<item id="7">
+			<label>[COLOR blue]Fight TV[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://http%3a%2f%2fwww.rockcinema.eu%2fresources%2fNEW-FIGHT-LOGO.gif/</thumb>
+			<property name="labelID">colorblue-fighttv-color</property>
+			<property name="defaultID" />
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.phstreams/?url=http%3A%2F%2Fbanjaluka.watchkodi.com%2FUFC.xml&amp;mode=ndmode&amp;name=%5BCOLOR+orange%5DFight%5B%2FCOLOR%5D+%5BCOLOR+red%5D+Updated+01%2F02%2F15%2F%5B%2FCOLOR%5D&amp;sound=",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.phstreams/?url=http%3A%2F%2Fbanjaluka.watchkodi.com%2FUFC.xml&amp;mode=ndmode&amp;name=%5BCOLOR+orange%5DFight%5B%2FCOLOR%5D+%5BCOLOR+red%5D+Updated+01%2F02%2F15%2F%5B%2FCOLOR%5D&amp;sound=",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Container(9000).ListItem.Property(submenuVisibility),x606)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x606</property>
+		</item>
+		<item id="8">
+			<label>[COLOR blue]UFC[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.UFC%2ficon.png/</thumb>
+			<property name="labelID">plugin.video.UFC</property>
+			<property name="defaultID">plugin.video.UFC</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.UFC",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.UFC",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Container(9000).ListItem.Property(submenuVisibility),x606)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x606</property>
+		</item>
+		<item id="9">
+			<label>[COLOR blue]Soccer Replays[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.footballreplays%2ficon.png/</thumb>
+			<property name="labelID">plugin.video.footballreplays</property>
+			<property name="defaultID">plugin.video.footballreplays</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.footballreplays",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.footballreplays",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Container(9000).ListItem.Property(submenuVisibility),x606)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x606</property>
+		</item>
+		<item id="10">
+			<label>[COLOR blue]Soccer Today[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.football.today%2ficon.png/</thumb>
+			<property name="labelID">plugin.video.football.today</property>
+			<property name="defaultID">plugin.video.football.today</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.football.today",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.football.today",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Container(9000).ListItem.Property(submenuVisibility),x606)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x606</property>
+		</item>
+		<item id="11">
+			<label>[COLOR blue]WWE Online[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.wweonline%2ficon.png/</thumb>
+			<property name="labelID">plugin.video.wweonline</property>
+			<property name="defaultID">plugin.video.wweonline</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.wweonline",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.wweonline",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Container(9000).ListItem.Property(submenuVisibility),x606)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x606</property>
+		</item>
+	</include>
+	<include name="skinshortcuts-group-x1" />
+	<include name="skinshortcuts-group-alt-x1" />
+	<include name="skinshortcuts-group-x2" />
+	<include name="skinshortcuts-group-alt-x2" />
+	<include name="skinshortcuts-group-x3" />
+	<include name="skinshortcuts-group-alt-x3" />
+	<include name="skinshortcuts-group-x4" />
+	<include name="skinshortcuts-group-alt-x4" />
+	<include name="skinshortcuts-group-x5">
+		<item id="1">
+			<label>[COLOR blue]iTunes Podcasts[/COLOR]</label>
+			<label2 />
+			<icon />
+			<thumb />
+			<property name="labelID">plugin.video.itunes_podcasts</property>
+			<property name="defaultID">plugin.video.itunes_podcasts</property>
+			<onclick>ActivateWindow(10501,"plugin://plugin.video.itunes_podcasts",return)</onclick>
+			<property name="path">ActivateWindow(10501,"plugin://plugin.video.itunes_podcasts",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user)</visible>
+			<property name="group">x5</property>
+		</item>
+		<item id="2">
+			<label>[COLOR blue]VEVO[/COLOR]</label>
+			<label2 />
+			<icon />
+			<thumb />
+			<property name="labelID">plugin.video.vevo</property>
+			<property name="defaultID">plugin.video.vevo</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.vevo",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.vevo",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user)</visible>
+			<property name="group">x5</property>
+		</item>
+		<item id="3">
+			<label>[COLOR blue]Radio[/COLOR]</label>
+			<label2 />
+			<icon />
+			<thumb />
+			<property name="labelID">plugin.audio.radio_de</property>
+			<property name="defaultID">plugin.audio.radio_de</property>
+			<onclick>ActivateWindow(10501,"plugin://plugin.audio.radio_de",return)</onclick>
+			<property name="path">ActivateWindow(10501,"plugin://plugin.audio.radio_de",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user)</visible>
+			<property name="group">x5</property>
+		</item>
+		<item id="4">
+			<label>[COLOR blue]SoundCloud[/COLOR]</label>
+			<label2 />
+			<icon />
+			<thumb />
+			<property name="labelID">plugin.audio.soundcloud</property>
+			<property name="defaultID">plugin.audio.soundcloud</property>
+			<onclick>ActivateWindow(10501,"plugin://plugin.audio.soundcloud",return)</onclick>
+			<property name="path">ActivateWindow(10501,"plugin://plugin.audio.soundcloud",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user)</visible>
+			<property name="group">x5</property>
+		</item>
+		<item id="5">
+			<label>[COLOR blue]VEVO TV[/COLOR]</label>
+			<label2 />
+			<icon />
+			<thumb />
+			<property name="labelID">plugin.video.vevo_tv</property>
+			<property name="defaultID">plugin.video.vevo_tv</property>
+			<onclick>ActivateWindow(10501,"plugin://plugin.video.vevo_tv",return)</onclick>
+			<property name="path">ActivateWindow(10501,"plugin://plugin.video.vevo_tv",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user)</visible>
+			<property name="group">x5</property>
+		</item>
+		<item id="6">
+			<label>[COLOR blue]Pearl Jam Live[/COLOR]</label>
+			<label2 />
+			<icon />
+			<thumb />
+			<property name="labelID">plugin.audio.pearljamlive</property>
+			<property name="defaultID">plugin.audio.pearljamlive</property>
+			<onclick>ActivateWindow(10501,"plugin://plugin.audio.pearljamlive",return)</onclick>
+			<property name="path">ActivateWindow(10501,"plugin://plugin.audio.pearljamlive",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user)</visible>
+			<property name="group">x5</property>
+		</item>
+	</include>
+	<include name="skinshortcuts-group-alt-x5">
+		<item id="1">
+			<label>[COLOR blue]iTunes Podcasts[/COLOR]</label>
+			<label2 />
+			<icon />
+			<thumb />
+			<property name="labelID">plugin.video.itunes_podcasts</property>
+			<property name="defaultID">plugin.video.itunes_podcasts</property>
+			<onclick>ActivateWindow(10501,"plugin://plugin.video.itunes_podcasts",return)</onclick>
+			<property name="path">ActivateWindow(10501,"plugin://plugin.video.itunes_podcasts",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Window(10000).Property(submenuVisibility),x5)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x5</property>
+		</item>
+		<item id="2">
+			<label>[COLOR blue]VEVO[/COLOR]</label>
+			<label2 />
+			<icon />
+			<thumb />
+			<property name="labelID">plugin.video.vevo</property>
+			<property name="defaultID">plugin.video.vevo</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.vevo",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.vevo",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Window(10000).Property(submenuVisibility),x5)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x5</property>
+		</item>
+		<item id="3">
+			<label>[COLOR blue]Radio[/COLOR]</label>
+			<label2 />
+			<icon />
+			<thumb />
+			<property name="labelID">plugin.audio.radio_de</property>
+			<property name="defaultID">plugin.audio.radio_de</property>
+			<onclick>ActivateWindow(10501,"plugin://plugin.audio.radio_de",return)</onclick>
+			<property name="path">ActivateWindow(10501,"plugin://plugin.audio.radio_de",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Window(10000).Property(submenuVisibility),x5)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x5</property>
+		</item>
+		<item id="4">
+			<label>[COLOR blue]SoundCloud[/COLOR]</label>
+			<label2 />
+			<icon />
+			<thumb />
+			<property name="labelID">plugin.audio.soundcloud</property>
+			<property name="defaultID">plugin.audio.soundcloud</property>
+			<onclick>ActivateWindow(10501,"plugin://plugin.audio.soundcloud",return)</onclick>
+			<property name="path">ActivateWindow(10501,"plugin://plugin.audio.soundcloud",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Window(10000).Property(submenuVisibility),x5)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x5</property>
+		</item>
+		<item id="5">
+			<label>[COLOR blue]VEVO TV[/COLOR]</label>
+			<label2 />
+			<icon />
+			<thumb />
+			<property name="labelID">plugin.video.vevo_tv</property>
+			<property name="defaultID">plugin.video.vevo_tv</property>
+			<onclick>ActivateWindow(10501,"plugin://plugin.video.vevo_tv",return)</onclick>
+			<property name="path">ActivateWindow(10501,"plugin://plugin.video.vevo_tv",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Window(10000).Property(submenuVisibility),x5)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x5</property>
+		</item>
+		<item id="6">
+			<label>[COLOR blue]Pearl Jam Live[/COLOR]</label>
+			<label2 />
+			<icon />
+			<thumb />
+			<property name="labelID">plugin.audio.pearljamlive</property>
+			<property name="defaultID">plugin.audio.pearljamlive</property>
+			<onclick>ActivateWindow(10501,"plugin://plugin.audio.pearljamlive",return)</onclick>
+			<property name="path">ActivateWindow(10501,"plugin://plugin.audio.pearljamlive",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Window(10000).Property(submenuVisibility),x5)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x5</property>
+		</item>
+	</include>
+	<include name="skinshortcuts-group-x6">
+		<item id="1">
+			<label>Exit</label>
+			<label2>Kodi Command</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<property name="labelID">exit</property>
+			<property name="defaultID">13013</property>
+			<onclick>Reboot</onclick>
+			<property name="path">Reboot</property>
+			<visible>StringCompare(System.ProfileName,Master user)</visible>
+			<property name="group">x6</property>
+		</item>
+	</include>
+	<include name="skinshortcuts-group-alt-x6">
+		<item id="1">
+			<label>Exit</label>
+			<label2>Kodi Command</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<property name="labelID">exit</property>
+			<property name="defaultID">13013</property>
+			<onclick>Reboot</onclick>
+			<property name="path">Reboot</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Window(10000).Property(submenuVisibility),x6)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x6</property>
+		</item>
+	</include>
+	<include name="skinshortcuts-group-x7" />
+	<include name="skinshortcuts-group-alt-x7" />
+	<include name="skinshortcuts-group-x8" />
+	<include name="skinshortcuts-group-alt-x8" />
+	<include name="skinshortcuts-group-x9" />
+	<include name="skinshortcuts-group-alt-x9" />
+	<include name="skinshortcuts-group-x10" />
+	<include name="skinshortcuts-group-alt-x10" />
+	<include name="skinshortcuts-group-x11">
+		<item id="1">
+			<label>[COLOR blue]1Channel[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.1channel%2ficon.png/</thumb>
+			<property name="labelID">plugin.video.1channel</property>
+			<property name="defaultID">plugin.video.1channel</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.1channel",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.1channel",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user)</visible>
+			<property name="group">x11</property>
+		</item>
+		<item id="2">
+			<label>[COLOR blue]Genesis[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.genesis%2ficon.png/</thumb>
+			<property name="labelID">plugin.video.genesis</property>
+			<property name="defaultID">plugin.video.genesis</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.genesis",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.genesis",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user)</visible>
+			<property name="group">x11</property>
+		</item>
+		<item id="3">
+			<label>[COLOR blue]iSTREAM[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultAddon.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fscript.icechannel%2ficon.png/</thumb>
+			<property name="labelID">script.icechannel</property>
+			<property name="defaultID">script.icechannel</property>
+			<onclick>RunAddOn(script.icechannel)</onclick>
+			<property name="path">RunAddOn(script.icechannel)</property>
+			<visible>StringCompare(System.ProfileName,Master user)</visible>
+			<property name="group">x11</property>
+		</item>
+		<item id="4">
+			<label>[COLOR blue]Movies HD[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.movieshd%2ficon.png/</thumb>
+			<property name="labelID">plugin.video.movieshd</property>
+			<property name="defaultID">plugin.video.movieshd</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.movieshd",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.movieshd",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user)</visible>
+			<property name="group">x11</property>
+		</item>
+		<item id="5">
+			<label>[COLOR blue]Ororo TV[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.ororotv%2ficon.png/</thumb>
+			<property name="labelID">plugin.video.ororotv</property>
+			<property name="defaultID">plugin.video.ororotv</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.ororotv",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.ororotv",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user)</visible>
+			<property name="group">x11</property>
+		</item>
+		<item id="6">
+			<label>[COLOR blue]Cliq![/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.moviedb%2ficon.png/</thumb>
+			<property name="labelID">plugin.video.moviedb</property>
+			<property name="defaultID">plugin.video.moviedb</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.moviedb",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.moviedb",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user)</visible>
+			<property name="group">x11</property>
+		</item>
+		<item id="7">
+			<label>[COLOR blue]Online Movies Pro[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.onlinemovies%2ficon.png/</thumb>
+			<property name="labelID">plugin.video.onlinemovies</property>
+			<property name="defaultID">plugin.video.onlinemovies</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.onlinemovies",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.onlinemovies",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user)</visible>
+			<property name="group">x11</property>
+		</item>
+		<item id="8">
+			<label>[COLOR blue]Project Free TV[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.projectfreetv%2ficon.png/</thumb>
+			<property name="labelID">plugin.video.projectfreetv</property>
+			<property name="defaultID">plugin.video.projectfreetv</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.projectfreetv",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.projectfreetv",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user)</visible>
+			<property name="group">x11</property>
+		</item>
+		<item id="9">
+			<label>[COLOR blue]Foreign Cinema[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://http%3a%2f%2fs22.postimg.org%2ffchu1m6bl%2fONEFOREIGN.png/</thumb>
+			<property name="labelID">colorblue-foreigncinema-color</property>
+			<property name="defaultID" />
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.phstreams/?url=http%3A%2F%2Fgibraltar.watchkodi.com%2FForeignCinema%2FForeignCinemaDirectory.xml&amp;mode=ndmode&amp;name=Foreign+Cinema&amp;sound=",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.phstreams/?url=http%3A%2F%2Fgibraltar.watchkodi.com%2FForeignCinema%2FForeignCinemaDirectory.xml&amp;mode=ndmode&amp;name=Foreign+Cinema&amp;sound=",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user)</visible>
+			<property name="group">x11</property>
+		</item>
+	</include>
+	<include name="skinshortcuts-group-alt-x11">
+		<item id="1">
+			<label>[COLOR blue]1Channel[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.1channel%2ficon.png/</thumb>
+			<property name="labelID">plugin.video.1channel</property>
+			<property name="defaultID">plugin.video.1channel</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.1channel",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.1channel",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Window(10000).Property(submenuVisibility),x11)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x11</property>
+		</item>
+		<item id="2">
+			<label>[COLOR blue]Genesis[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.genesis%2ficon.png/</thumb>
+			<property name="labelID">plugin.video.genesis</property>
+			<property name="defaultID">plugin.video.genesis</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.genesis",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.genesis",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Window(10000).Property(submenuVisibility),x11)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x11</property>
+		</item>
+		<item id="3">
+			<label>[COLOR blue]iSTREAM[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultAddon.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fscript.icechannel%2ficon.png/</thumb>
+			<property name="labelID">script.icechannel</property>
+			<property name="defaultID">script.icechannel</property>
+			<onclick>RunAddOn(script.icechannel)</onclick>
+			<property name="path">RunAddOn(script.icechannel)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Window(10000).Property(submenuVisibility),x11)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x11</property>
+		</item>
+		<item id="4">
+			<label>[COLOR blue]Movies HD[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.movieshd%2ficon.png/</thumb>
+			<property name="labelID">plugin.video.movieshd</property>
+			<property name="defaultID">plugin.video.movieshd</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.movieshd",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.movieshd",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Window(10000).Property(submenuVisibility),x11)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x11</property>
+		</item>
+		<item id="5">
+			<label>[COLOR blue]Ororo TV[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.ororotv%2ficon.png/</thumb>
+			<property name="labelID">plugin.video.ororotv</property>
+			<property name="defaultID">plugin.video.ororotv</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.ororotv",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.ororotv",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Window(10000).Property(submenuVisibility),x11)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x11</property>
+		</item>
+		<item id="6">
+			<label>[COLOR blue]Cliq![/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.moviedb%2ficon.png/</thumb>
+			<property name="labelID">plugin.video.moviedb</property>
+			<property name="defaultID">plugin.video.moviedb</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.moviedb",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.moviedb",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Window(10000).Property(submenuVisibility),x11)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x11</property>
+		</item>
+		<item id="7">
+			<label>[COLOR blue]Online Movies Pro[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.onlinemovies%2ficon.png/</thumb>
+			<property name="labelID">plugin.video.onlinemovies</property>
+			<property name="defaultID">plugin.video.onlinemovies</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.onlinemovies",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.onlinemovies",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Window(10000).Property(submenuVisibility),x11)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x11</property>
+		</item>
+		<item id="8">
+			<label>[COLOR blue]Project Free TV[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.projectfreetv%2ficon.png/</thumb>
+			<property name="labelID">plugin.video.projectfreetv</property>
+			<property name="defaultID">plugin.video.projectfreetv</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.projectfreetv",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.projectfreetv",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Window(10000).Property(submenuVisibility),x11)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x11</property>
+		</item>
+		<item id="9">
+			<label>[COLOR blue]Foreign Cinema[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://http%3a%2f%2fs22.postimg.org%2ffchu1m6bl%2fONEFOREIGN.png/</thumb>
+			<property name="labelID">colorblue-foreigncinema-color</property>
+			<property name="defaultID" />
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.phstreams/?url=http%3A%2F%2Fgibraltar.watchkodi.com%2FForeignCinema%2FForeignCinemaDirectory.xml&amp;mode=ndmode&amp;name=Foreign+Cinema&amp;sound=",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.phstreams/?url=http%3A%2F%2Fgibraltar.watchkodi.com%2FForeignCinema%2FForeignCinemaDirectory.xml&amp;mode=ndmode&amp;name=Foreign+Cinema&amp;sound=",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Window(10000).Property(submenuVisibility),x11)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x11</property>
+		</item>
+	</include>
+	<include name="skinshortcuts-group-x12" />
+	<include name="skinshortcuts-group-alt-x12" />
+	<include name="skinshortcuts-group-x13" />
+	<include name="skinshortcuts-group-alt-x13" />
+	<include name="skinshortcuts-group-x101">
+		<item id="1">
+			<label>[COLOR blue]RT News[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.rt%2ficon.png/</thumb>
+			<property name="labelID">plugin.video.rt</property>
+			<property name="defaultID">plugin.video.rt</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.rt",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.rt",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user)</visible>
+			<property name="group">x101</property>
+		</item>
+		<item id="2">
+			<label>[COLOR blue]TMZ[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.tmz%2ficon.png/</thumb>
+			<property name="labelID">plugin.video.tmz</property>
+			<property name="defaultID">plugin.video.tmz</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.tmz",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.tmz",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user)</visible>
+			<property name="group">x101</property>
+		</item>
+		<item id="3">
+			<label>[COLOR blue]CBS News[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.cbsn%2ficon.png/</thumb>
+			<property name="labelID">plugin.video.cbsn</property>
+			<property name="defaultID">plugin.video.cbsn</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.cbsn",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.cbsn",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user)</visible>
+			<property name="group">x101</property>
+		</item>
+		<item id="4">
+			<label>[COLOR blue]TOP NEWS[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.vdubt%2ficon.png/</thumb>
+			<property name="labelID">colorblue-topnews-color</property>
+			<property name="defaultID" />
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.vdubt/?url=%5BCOLOR+green%5D--+NEWS+--%5B%2FCOLOR%5D++&amp;mode=1&amp;name=%5BCOLOR+green%5D--+NEWS+--%5B%2FCOLOR%5D&amp;iconimage=&amp;description=",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.vdubt/?url=%5BCOLOR+green%5D--+NEWS+--%5B%2FCOLOR%5D++&amp;mode=1&amp;name=%5BCOLOR+green%5D--+NEWS+--%5B%2FCOLOR%5D&amp;iconimage=&amp;description=",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user)</visible>
+			<property name="group">x101</property>
+		</item>
+		<item id="5">
+			<label>[COLOR blue]Fox News[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.fox.news%2ficon.png/</thumb>
+			<property name="labelID">plugin.video.fox.news</property>
+			<property name="defaultID">plugin.video.fox.news</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.fox.news",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.fox.news",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user)</visible>
+			<property name="group">x101</property>
+		</item>
+		<item id="6">
+			<label>[COLOR blue]WSJ[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.wsj%2ficon.png/</thumb>
+			<property name="labelID">plugin.video.wsj</property>
+			<property name="defaultID">plugin.video.wsj</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.wsj",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.wsj",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user)</visible>
+			<property name="group">x101</property>
+		</item>
+		<item id="7">
+			<label>[COLOR blue]TIME[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.time_com%2ficon.png/</thumb>
+			<property name="labelID">plugin.video.time_com</property>
+			<property name="defaultID">plugin.video.time_com</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.time_com",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.time_com",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user)</visible>
+			<property name="group">x101</property>
+		</item>
+		<item id="8">
+			<label>[COLOR blue]The Onion[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.theonion_com%2ficon.png/</thumb>
+			<property name="labelID">plugin.video.theonion_com</property>
+			<property name="defaultID">plugin.video.theonion_com</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.theonion_com",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.theonion_com",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user)</visible>
+			<property name="group">x101</property>
+		</item>
+		<item id="9">
+			<label>[COLOR blue]Nasa[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.nasa%2ficon.png/</thumb>
+			<property name="labelID">plugin.video.nasa</property>
+			<property name="defaultID">plugin.video.nasa</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.nasa",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.nasa",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user)</visible>
+			<property name="group">x101</property>
+		</item>
+		<item id="10">
+			<label>[COLOR blue]TED Talks[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.ted.talks%2ficon.png/</thumb>
+			<property name="labelID">plugin.video.ted.talks</property>
+			<property name="defaultID">plugin.video.ted.talks</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.ted.talks",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.ted.talks",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user)</visible>
+			<property name="group">x101</property>
+		</item>
+	</include>
+	<include name="skinshortcuts-group-alt-x101">
+		<item id="1">
+			<label>[COLOR blue]RT News[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.rt%2ficon.png/</thumb>
+			<property name="labelID">plugin.video.rt</property>
+			<property name="defaultID">plugin.video.rt</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.rt",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.rt",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Window(10000).Property(submenuVisibility),x101)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x101</property>
+		</item>
+		<item id="2">
+			<label>[COLOR blue]TMZ[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.tmz%2ficon.png/</thumb>
+			<property name="labelID">plugin.video.tmz</property>
+			<property name="defaultID">plugin.video.tmz</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.tmz",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.tmz",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Window(10000).Property(submenuVisibility),x101)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x101</property>
+		</item>
+		<item id="3">
+			<label>[COLOR blue]CBS News[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.cbsn%2ficon.png/</thumb>
+			<property name="labelID">plugin.video.cbsn</property>
+			<property name="defaultID">plugin.video.cbsn</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.cbsn",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.cbsn",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Window(10000).Property(submenuVisibility),x101)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x101</property>
+		</item>
+		<item id="4">
+			<label>[COLOR blue]TOP NEWS[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.vdubt%2ficon.png/</thumb>
+			<property name="labelID">colorblue-topnews-color</property>
+			<property name="defaultID" />
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.vdubt/?url=%5BCOLOR+green%5D--+NEWS+--%5B%2FCOLOR%5D++&amp;mode=1&amp;name=%5BCOLOR+green%5D--+NEWS+--%5B%2FCOLOR%5D&amp;iconimage=&amp;description=",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.vdubt/?url=%5BCOLOR+green%5D--+NEWS+--%5B%2FCOLOR%5D++&amp;mode=1&amp;name=%5BCOLOR+green%5D--+NEWS+--%5B%2FCOLOR%5D&amp;iconimage=&amp;description=",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Window(10000).Property(submenuVisibility),x101)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x101</property>
+		</item>
+		<item id="5">
+			<label>[COLOR blue]Fox News[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.fox.news%2ficon.png/</thumb>
+			<property name="labelID">plugin.video.fox.news</property>
+			<property name="defaultID">plugin.video.fox.news</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.fox.news",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.fox.news",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Window(10000).Property(submenuVisibility),x101)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x101</property>
+		</item>
+		<item id="6">
+			<label>[COLOR blue]WSJ[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.wsj%2ficon.png/</thumb>
+			<property name="labelID">plugin.video.wsj</property>
+			<property name="defaultID">plugin.video.wsj</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.wsj",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.wsj",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Window(10000).Property(submenuVisibility),x101)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x101</property>
+		</item>
+		<item id="7">
+			<label>[COLOR blue]TIME[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.time_com%2ficon.png/</thumb>
+			<property name="labelID">plugin.video.time_com</property>
+			<property name="defaultID">plugin.video.time_com</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.time_com",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.time_com",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Window(10000).Property(submenuVisibility),x101)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x101</property>
+		</item>
+		<item id="8">
+			<label>[COLOR blue]The Onion[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.theonion_com%2ficon.png/</thumb>
+			<property name="labelID">plugin.video.theonion_com</property>
+			<property name="defaultID">plugin.video.theonion_com</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.theonion_com",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.theonion_com",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Window(10000).Property(submenuVisibility),x101)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x101</property>
+		</item>
+		<item id="9">
+			<label>[COLOR blue]Nasa[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.nasa%2ficon.png/</thumb>
+			<property name="labelID">plugin.video.nasa</property>
+			<property name="defaultID">plugin.video.nasa</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.nasa",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.nasa",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Window(10000).Property(submenuVisibility),x101)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x101</property>
+		</item>
+		<item id="10">
+			<label>[COLOR blue]TED Talks[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.ted.talks%2ficon.png/</thumb>
+			<property name="labelID">plugin.video.ted.talks</property>
+			<property name="defaultID">plugin.video.ted.talks</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.ted.talks",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.ted.talks",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Window(10000).Property(submenuVisibility),x101)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x101</property>
+		</item>
+	</include>
+	<include name="skinshortcuts-group-x202" />
+	<include name="skinshortcuts-group-alt-x202" />
+	<include name="skinshortcuts-group-x303">
+		<item id="1">
+			<label>[COLOR blue]Kids Collections[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://http%3a%2f%2fs20.postimg.org%2fgfuvon34t%2fKidz_Collectionz.png/</thumb>
+			<property name="labelID">colorblue-kidscollections-color</property>
+			<property name="defaultID" />
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.phstreams/?url=http%3A%2F%2Fzenica.watchkodi.com%2FDirectories%2FKidz%2520Collectionz.xml&amp;mode=ndmode&amp;name=Kidz+Collectionz&amp;sound=",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.phstreams/?url=http%3A%2F%2Fzenica.watchkodi.com%2FDirectories%2FKidz%2520Collectionz.xml&amp;mode=ndmode&amp;name=Kidz+Collectionz&amp;sound=",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user)</visible>
+			<property name="group">x303</property>
+		</item>
+		<item id="2">
+			<label>[COLOR blue]Kids TV Shows[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://http%3a%2f%2fs20.postimg.org%2fyvwkmmae5%2fKids_TV_Shows_256x256.jpg/</thumb>
+			<property name="labelID">colorblue-kidstvshows-color</property>
+			<property name="defaultID" />
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.phstreams/?url=http%3A%2F%2Fzenica.watchkodi.com%2FDirectories%2FKids%2520TV%2520Directory.xml&amp;mode=ndmode&amp;name=Kids+TV+Shows&amp;sound=",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.phstreams/?url=http%3A%2F%2Fzenica.watchkodi.com%2FDirectories%2FKids%2520TV%2520Directory.xml&amp;mode=ndmode&amp;name=Kids+TV+Shows&amp;sound=",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user)</visible>
+			<property name="group">x303</property>
+		</item>
+		<item id="3">
+			<label>[COLOR blue]Cartoons +[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.cartoonhd%2ficon.png/</thumb>
+			<property name="labelID">plugin.video.cartoonhd</property>
+			<property name="defaultID">plugin.video.cartoonhd</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.cartoonhd",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.cartoonhd",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user)</visible>
+			<property name="group">x303</property>
+		</item>
+		<item id="4">
+			<label>[COLOR blue]Cartoonland[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://http%3a%2f%2fi41.tinypic.com%2fjpa2s0.jpg/</thumb>
+			<property name="labelID">colorblue-cartoonland-color</property>
+			<property name="defaultID" />
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.phstreams/?url=http%3A%2F%2Fzenica.watchkodi.com%2FDirectories%2FCartoonland%2520Directory.xml&amp;mode=ndmode&amp;name=Cartoonland&amp;sound=",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.phstreams/?url=http%3A%2F%2Fzenica.watchkodi.com%2FDirectories%2FCartoonland%2520Directory.xml&amp;mode=ndmode&amp;name=Cartoonland&amp;sound=",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user)</visible>
+			<property name="group">x303</property>
+		</item>
+		<item id="5">
+			<label>[COLOR blue]Movie Magic[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.movieshd%2ficon.PNG/</thumb>
+			<property name="labelID">colorblue-moviemagic-color</property>
+			<property name="defaultID" />
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.movieshd/?url=http%3A%2F%2Fmovieshd.co%2Fwatch-online%2Fcategory%2Fdisneys%3Fdisplay%3Dtube%26filtre%3Ddate&amp;mode=1&amp;name=Disneys+Magic&amp;description=",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.movieshd/?url=http%3A%2F%2Fmovieshd.co%2Fwatch-online%2Fcategory%2Fdisneys%3Fdisplay%3Dtube%26filtre%3Ddate&amp;mode=1&amp;name=Disneys+Magic&amp;description=",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user)</visible>
+			<property name="group">x303</property>
+		</item>
+		<item id="6">
+			<label>[COLOR blue]Disney Junior[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.disneyjunior%2ficon.png/</thumb>
+			<property name="labelID">plugin.video.disneyjunior</property>
+			<property name="defaultID">plugin.video.disneyjunior</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.disneyjunior",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.disneyjunior",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user)</visible>
+			<property name="group">x303</property>
+		</item>
+	</include>
+	<include name="skinshortcuts-group-alt-x303">
+		<item id="1">
+			<label>[COLOR blue]Kids Collections[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://http%3a%2f%2fs20.postimg.org%2fgfuvon34t%2fKidz_Collectionz.png/</thumb>
+			<property name="labelID">colorblue-kidscollections-color</property>
+			<property name="defaultID" />
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.phstreams/?url=http%3A%2F%2Fzenica.watchkodi.com%2FDirectories%2FKidz%2520Collectionz.xml&amp;mode=ndmode&amp;name=Kidz+Collectionz&amp;sound=",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.phstreams/?url=http%3A%2F%2Fzenica.watchkodi.com%2FDirectories%2FKidz%2520Collectionz.xml&amp;mode=ndmode&amp;name=Kidz+Collectionz&amp;sound=",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Window(10000).Property(submenuVisibility),x303)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x303</property>
+		</item>
+		<item id="2">
+			<label>[COLOR blue]Kids TV Shows[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://http%3a%2f%2fs20.postimg.org%2fyvwkmmae5%2fKids_TV_Shows_256x256.jpg/</thumb>
+			<property name="labelID">colorblue-kidstvshows-color</property>
+			<property name="defaultID" />
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.phstreams/?url=http%3A%2F%2Fzenica.watchkodi.com%2FDirectories%2FKids%2520TV%2520Directory.xml&amp;mode=ndmode&amp;name=Kids+TV+Shows&amp;sound=",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.phstreams/?url=http%3A%2F%2Fzenica.watchkodi.com%2FDirectories%2FKids%2520TV%2520Directory.xml&amp;mode=ndmode&amp;name=Kids+TV+Shows&amp;sound=",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Window(10000).Property(submenuVisibility),x303)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x303</property>
+		</item>
+		<item id="3">
+			<label>[COLOR blue]Cartoons +[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.cartoonhd%2ficon.png/</thumb>
+			<property name="labelID">plugin.video.cartoonhd</property>
+			<property name="defaultID">plugin.video.cartoonhd</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.cartoonhd",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.cartoonhd",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Window(10000).Property(submenuVisibility),x303)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x303</property>
+		</item>
+		<item id="4">
+			<label>[COLOR blue]Cartoonland[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://http%3a%2f%2fi41.tinypic.com%2fjpa2s0.jpg/</thumb>
+			<property name="labelID">colorblue-cartoonland-color</property>
+			<property name="defaultID" />
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.phstreams/?url=http%3A%2F%2Fzenica.watchkodi.com%2FDirectories%2FCartoonland%2520Directory.xml&amp;mode=ndmode&amp;name=Cartoonland&amp;sound=",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.phstreams/?url=http%3A%2F%2Fzenica.watchkodi.com%2FDirectories%2FCartoonland%2520Directory.xml&amp;mode=ndmode&amp;name=Cartoonland&amp;sound=",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Window(10000).Property(submenuVisibility),x303)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x303</property>
+		</item>
+		<item id="5">
+			<label>[COLOR blue]Movie Magic[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.movieshd%2ficon.PNG/</thumb>
+			<property name="labelID">colorblue-moviemagic-color</property>
+			<property name="defaultID" />
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.movieshd/?url=http%3A%2F%2Fmovieshd.co%2Fwatch-online%2Fcategory%2Fdisneys%3Fdisplay%3Dtube%26filtre%3Ddate&amp;mode=1&amp;name=Disneys+Magic&amp;description=",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.movieshd/?url=http%3A%2F%2Fmovieshd.co%2Fwatch-online%2Fcategory%2Fdisneys%3Fdisplay%3Dtube%26filtre%3Ddate&amp;mode=1&amp;name=Disneys+Magic&amp;description=",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Window(10000).Property(submenuVisibility),x303)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x303</property>
+		</item>
+		<item id="6">
+			<label>[COLOR blue]Disney Junior[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.disneyjunior%2ficon.png/</thumb>
+			<property name="labelID">plugin.video.disneyjunior</property>
+			<property name="defaultID">plugin.video.disneyjunior</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.disneyjunior",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.disneyjunior",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Window(10000).Property(submenuVisibility),x303)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x303</property>
+		</item>
+	</include>
+	<include name="skinshortcuts-group-x404">
+		<item id="1">
+			<label>[COLOR blue]FilmOn[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.filmon%2ficon.png/</thumb>
+			<property name="labelID">plugin.video.filmon</property>
+			<property name="defaultID">plugin.video.filmon</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.filmon",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.filmon",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user)</visible>
+			<property name="group">x404</property>
+		</item>
+		<item id="2">
+			<label>[COLOR blue]Vdubt25[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.vdubt%2ficon.png/</thumb>
+			<property name="labelID">plugin.video.vdubt</property>
+			<property name="defaultID">plugin.video.vdubt</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.vdubt",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.vdubt",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user)</visible>
+			<property name="group">x404</property>
+		</item>
+		<item id="3">
+			<label>[COLOR blue]HALOW LIVE[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.Halow%2ficon.png/</thumb>
+			<property name="labelID">plugin.video.Halow</property>
+			<property name="defaultID">plugin.video.Halow</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.Halow",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.Halow",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user)</visible>
+			<property name="group">x404</property>
+		</item>
+		<item id="4">
+			<label>[COLOR blue]International[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://http%3a%2f%2falaska.watchkodi.com%2fcrusader88A.png/</thumb>
+			<property name="labelID">colorblue-international-color</property>
+			<property name="defaultID" />
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.phstreams/?url=http%3A%2F%2Falaska.watchkodi.com%2Fmaindir%2Fmain2.xml&amp;mode=dmode&amp;name=International+Channels&amp;sound=",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.phstreams/?url=http%3A%2F%2Falaska.watchkodi.com%2Fmaindir%2Fmain2.xml&amp;mode=dmode&amp;name=International+Channels&amp;sound=",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user)</visible>
+			<property name="group">x404</property>
+		</item>
+		<item id="5">
+			<label>[COLOR blue]World Tv[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.mikeytv%2ficon.png/</thumb>
+			<property name="labelID">plugin.video.mikeytv</property>
+			<property name="defaultID">plugin.video.mikeytv</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.mikeytv",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.mikeytv",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user)</visible>
+			<property name="group">x404</property>
+		</item>
+	</include>
+	<include name="skinshortcuts-group-alt-x404">
+		<item id="1">
+			<label>[COLOR blue]FilmOn[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.filmon%2ficon.png/</thumb>
+			<property name="labelID">plugin.video.filmon</property>
+			<property name="defaultID">plugin.video.filmon</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.filmon",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.filmon",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Window(10000).Property(submenuVisibility),x404)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x404</property>
+		</item>
+		<item id="2">
+			<label>[COLOR blue]Vdubt25[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.vdubt%2ficon.png/</thumb>
+			<property name="labelID">plugin.video.vdubt</property>
+			<property name="defaultID">plugin.video.vdubt</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.vdubt",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.vdubt",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Window(10000).Property(submenuVisibility),x404)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x404</property>
+		</item>
+		<item id="3">
+			<label>[COLOR blue]HALOW LIVE[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.Halow%2ficon.png/</thumb>
+			<property name="labelID">plugin.video.Halow</property>
+			<property name="defaultID">plugin.video.Halow</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.Halow",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.Halow",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Window(10000).Property(submenuVisibility),x404)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x404</property>
+		</item>
+		<item id="4">
+			<label>[COLOR blue]International[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://http%3a%2f%2falaska.watchkodi.com%2fcrusader88A.png/</thumb>
+			<property name="labelID">colorblue-international-color</property>
+			<property name="defaultID" />
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.phstreams/?url=http%3A%2F%2Falaska.watchkodi.com%2Fmaindir%2Fmain2.xml&amp;mode=dmode&amp;name=International+Channels&amp;sound=",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.phstreams/?url=http%3A%2F%2Falaska.watchkodi.com%2Fmaindir%2Fmain2.xml&amp;mode=dmode&amp;name=International+Channels&amp;sound=",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Window(10000).Property(submenuVisibility),x404)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x404</property>
+		</item>
+		<item id="5">
+			<label>[COLOR blue]World Tv[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.mikeytv%2ficon.png/</thumb>
+			<property name="labelID">plugin.video.mikeytv</property>
+			<property name="defaultID">plugin.video.mikeytv</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.mikeytv",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.mikeytv",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Window(10000).Property(submenuVisibility),x404)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x404</property>
+		</item>
+	</include>
+	<include name="skinshortcuts-group-x50-5" />
+	<include name="skinshortcuts-group-alt-x50-5" />
+	<include name="skinshortcuts-group-x606">
+		<item id="1">
+			<label>[COLOR blue]Extreme Sports[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.extreme.com%2ficon.png/</thumb>
+			<property name="labelID">plugin.video.extreme.com</property>
+			<property name="defaultID">plugin.video.extreme.com</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.extreme.com",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.extreme.com",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user)</visible>
+			<property name="group">x606</property>
+		</item>
+		<item id="2">
+			<label>[COLOR blue]Sport Pick[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.SportsDevil%2fresources%2fimages%2flivesports.png/</thumb>
+			<property name="labelID">colorblue-sportpick-color</property>
+			<property name="defaultID" />
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.SportsDevil/?mode=1&amp;item=title%3DLive%2BSports%26url%3Dlivesports.cfg%26definedIn%3DmainMenu.cfg%26director%3DSportsDevil%26genre%3DLive%2BSports%26type%3Drss%26icon%3D%252Fmnt%252Finternal_sd%252FAndroid%252Fdata%252Forg.xbmc.xbmc%252Ffiles%252F.xbmc%252Faddons%252Fplugin.video.SportsDevil%252Fresources%252Fimages%252Flivesports.png",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.SportsDevil/?mode=1&amp;item=title%3DLive%2BSports%26url%3Dlivesports.cfg%26definedIn%3DmainMenu.cfg%26director%3DSportsDevil%26genre%3DLive%2BSports%26type%3Drss%26icon%3D%252Fmnt%252Finternal_sd%252FAndroid%252Fdata%252Forg.xbmc.xbmc%252Ffiles%252F.xbmc%252Faddons%252Fplugin.video.SportsDevil%252Fresources%252Fimages%252Flivesports.png",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user)</visible>
+			<property name="group">x606</property>
+		</item>
+		<item id="3">
+			<label>[COLOR blue]NHL On-Demand[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.nhlondemand%2ficon.png/</thumb>
+			<property name="labelID">plugin.video.nhlondemand</property>
+			<property name="defaultID">plugin.video.nhlondemand</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.nhlondemand",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.nhlondemand",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user)</visible>
+			<property name="group">x606</property>
+		</item>
+		<item id="4">
+			<label>[COLOR blue]NBA On-Demand[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.nbaondemand%2ficon.png/</thumb>
+			<property name="labelID">plugin.video.nbaondemand</property>
+			<property name="defaultID">plugin.video.nbaondemand</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.nbaondemand",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.nbaondemand",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user)</visible>
+			<property name="group">x606</property>
+		</item>
+		<item id="5">
+			<label>[COLOR blue]NBA Replays[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.nbareplays%2ficon.png/</thumb>
+			<property name="labelID">plugin.video.nbareplays</property>
+			<property name="defaultID">plugin.video.nbareplays</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.nbareplays",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.nbareplays",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user)</visible>
+			<property name="group">x606</property>
+		</item>
+		<item id="6">
+			<label>[COLOR blue]NFL Teams[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.nfl-teams%2ficon.png/</thumb>
+			<property name="labelID">plugin.video.nfl-teams</property>
+			<property name="defaultID">plugin.video.nfl-teams</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.nfl-teams",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.nfl-teams",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user)</visible>
+			<property name="group">x606</property>
+		</item>
+		<item id="7">
+			<label>[COLOR blue]Fight TV[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://http%3a%2f%2fwww.rockcinema.eu%2fresources%2fNEW-FIGHT-LOGO.gif/</thumb>
+			<property name="labelID">colorblue-fighttv-color</property>
+			<property name="defaultID" />
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.phstreams/?url=http%3A%2F%2Fbanjaluka.watchkodi.com%2FUFC.xml&amp;mode=ndmode&amp;name=%5BCOLOR+orange%5DFight%5B%2FCOLOR%5D+%5BCOLOR+red%5D+Updated+01%2F02%2F15%2F%5B%2FCOLOR%5D&amp;sound=",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.phstreams/?url=http%3A%2F%2Fbanjaluka.watchkodi.com%2FUFC.xml&amp;mode=ndmode&amp;name=%5BCOLOR+orange%5DFight%5B%2FCOLOR%5D+%5BCOLOR+red%5D+Updated+01%2F02%2F15%2F%5B%2FCOLOR%5D&amp;sound=",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user)</visible>
+			<property name="group">x606</property>
+		</item>
+		<item id="8">
+			<label>[COLOR blue]UFC[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.UFC%2ficon.png/</thumb>
+			<property name="labelID">plugin.video.UFC</property>
+			<property name="defaultID">plugin.video.UFC</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.UFC",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.UFC",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user)</visible>
+			<property name="group">x606</property>
+		</item>
+		<item id="9">
+			<label>[COLOR blue]Soccer Replays[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.footballreplays%2ficon.png/</thumb>
+			<property name="labelID">plugin.video.footballreplays</property>
+			<property name="defaultID">plugin.video.footballreplays</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.footballreplays",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.footballreplays",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user)</visible>
+			<property name="group">x606</property>
+		</item>
+		<item id="10">
+			<label>[COLOR blue]Soccer Today[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.football.today%2ficon.png/</thumb>
+			<property name="labelID">plugin.video.football.today</property>
+			<property name="defaultID">plugin.video.football.today</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.football.today",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.football.today",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user)</visible>
+			<property name="group">x606</property>
+		</item>
+		<item id="11">
+			<label>[COLOR blue]WWE Online[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.wweonline%2ficon.png/</thumb>
+			<property name="labelID">plugin.video.wweonline</property>
+			<property name="defaultID">plugin.video.wweonline</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.wweonline",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.wweonline",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user)</visible>
+			<property name="group">x606</property>
+		</item>
+	</include>
+	<include name="skinshortcuts-group-alt-x606">
+		<item id="1">
+			<label>[COLOR blue]Extreme Sports[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.extreme.com%2ficon.png/</thumb>
+			<property name="labelID">plugin.video.extreme.com</property>
+			<property name="defaultID">plugin.video.extreme.com</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.extreme.com",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.extreme.com",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Window(10000).Property(submenuVisibility),x606)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x606</property>
+		</item>
+		<item id="2">
+			<label>[COLOR blue]Sport Pick[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.SportsDevil%2fresources%2fimages%2flivesports.png/</thumb>
+			<property name="labelID">colorblue-sportpick-color</property>
+			<property name="defaultID" />
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.SportsDevil/?mode=1&amp;item=title%3DLive%2BSports%26url%3Dlivesports.cfg%26definedIn%3DmainMenu.cfg%26director%3DSportsDevil%26genre%3DLive%2BSports%26type%3Drss%26icon%3D%252Fmnt%252Finternal_sd%252FAndroid%252Fdata%252Forg.xbmc.xbmc%252Ffiles%252F.xbmc%252Faddons%252Fplugin.video.SportsDevil%252Fresources%252Fimages%252Flivesports.png",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.SportsDevil/?mode=1&amp;item=title%3DLive%2BSports%26url%3Dlivesports.cfg%26definedIn%3DmainMenu.cfg%26director%3DSportsDevil%26genre%3DLive%2BSports%26type%3Drss%26icon%3D%252Fmnt%252Finternal_sd%252FAndroid%252Fdata%252Forg.xbmc.xbmc%252Ffiles%252F.xbmc%252Faddons%252Fplugin.video.SportsDevil%252Fresources%252Fimages%252Flivesports.png",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Window(10000).Property(submenuVisibility),x606)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x606</property>
+		</item>
+		<item id="3">
+			<label>[COLOR blue]NHL On-Demand[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.nhlondemand%2ficon.png/</thumb>
+			<property name="labelID">plugin.video.nhlondemand</property>
+			<property name="defaultID">plugin.video.nhlondemand</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.nhlondemand",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.nhlondemand",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Window(10000).Property(submenuVisibility),x606)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x606</property>
+		</item>
+		<item id="4">
+			<label>[COLOR blue]NBA On-Demand[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.nbaondemand%2ficon.png/</thumb>
+			<property name="labelID">plugin.video.nbaondemand</property>
+			<property name="defaultID">plugin.video.nbaondemand</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.nbaondemand",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.nbaondemand",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Window(10000).Property(submenuVisibility),x606)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x606</property>
+		</item>
+		<item id="5">
+			<label>[COLOR blue]NBA Replays[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.nbareplays%2ficon.png/</thumb>
+			<property name="labelID">plugin.video.nbareplays</property>
+			<property name="defaultID">plugin.video.nbareplays</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.nbareplays",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.nbareplays",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Window(10000).Property(submenuVisibility),x606)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x606</property>
+		</item>
+		<item id="6">
+			<label>[COLOR blue]NFL Teams[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.nfl-teams%2ficon.png/</thumb>
+			<property name="labelID">plugin.video.nfl-teams</property>
+			<property name="defaultID">plugin.video.nfl-teams</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.nfl-teams",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.nfl-teams",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Window(10000).Property(submenuVisibility),x606)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x606</property>
+		</item>
+		<item id="7">
+			<label>[COLOR blue]Fight TV[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://http%3a%2f%2fwww.rockcinema.eu%2fresources%2fNEW-FIGHT-LOGO.gif/</thumb>
+			<property name="labelID">colorblue-fighttv-color</property>
+			<property name="defaultID" />
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.phstreams/?url=http%3A%2F%2Fbanjaluka.watchkodi.com%2FUFC.xml&amp;mode=ndmode&amp;name=%5BCOLOR+orange%5DFight%5B%2FCOLOR%5D+%5BCOLOR+red%5D+Updated+01%2F02%2F15%2F%5B%2FCOLOR%5D&amp;sound=",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.phstreams/?url=http%3A%2F%2Fbanjaluka.watchkodi.com%2FUFC.xml&amp;mode=ndmode&amp;name=%5BCOLOR+orange%5DFight%5B%2FCOLOR%5D+%5BCOLOR+red%5D+Updated+01%2F02%2F15%2F%5B%2FCOLOR%5D&amp;sound=",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Window(10000).Property(submenuVisibility),x606)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x606</property>
+		</item>
+		<item id="8">
+			<label>[COLOR blue]UFC[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.UFC%2ficon.png/</thumb>
+			<property name="labelID">plugin.video.UFC</property>
+			<property name="defaultID">plugin.video.UFC</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.UFC",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.UFC",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Window(10000).Property(submenuVisibility),x606)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x606</property>
+		</item>
+		<item id="9">
+			<label>[COLOR blue]Soccer Replays[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.footballreplays%2ficon.png/</thumb>
+			<property name="labelID">plugin.video.footballreplays</property>
+			<property name="defaultID">plugin.video.footballreplays</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.footballreplays",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.footballreplays",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Window(10000).Property(submenuVisibility),x606)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x606</property>
+		</item>
+		<item id="10">
+			<label>[COLOR blue]Soccer Today[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.football.today%2ficon.png/</thumb>
+			<property name="labelID">plugin.video.football.today</property>
+			<property name="defaultID">plugin.video.football.today</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.football.today",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.football.today",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Window(10000).Property(submenuVisibility),x606)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x606</property>
+		</item>
+		<item id="11">
+			<label>[COLOR blue]WWE Online[/COLOR]</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://%2fmnt%2finternal_sd%2fAndroid%2fdata%2forg.xbmc.xbmc%2ffiles%2f.xbmc%2faddons%2fplugin.video.wweonline%2ficon.png/</thumb>
+			<property name="labelID">plugin.video.wweonline</property>
+			<property name="defaultID">plugin.video.wweonline</property>
+			<onclick>ActivateWindow(10025,"plugin://plugin.video.wweonline",return)</onclick>
+			<property name="path">ActivateWindow(10025,"plugin://plugin.video.wweonline",return)</property>
+			<visible>StringCompare(System.ProfileName,Master user) + [StringCompare(Window(10000).Property(submenuVisibility),x606)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">x606</property>
+		</item>
+	</include>
+</includes>
