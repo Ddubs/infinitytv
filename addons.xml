@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.itv_wizard" version="0.0.1"
+<addon id="plugin.video.itv_wizard" version="0.0.2"
 	name="INFINITY TV Wizard" provider-name="None">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
@@ -158,7 +158,7 @@
 
 <addon
   id="skin.infinitytv"
-  version="0.0.3"
+  version="0.0.4"
   name="INFINITY TV"
   provider-name="INFINITY TV">
 	<requires>
