@@ -21,3 +21,13 @@ fanart="https://raw.githubusercontent.com/Ddubs/infinitytv/master/plugin.video.i
 description="Configure INFINITY TV with all the Best Goodies Available in Just One Click!
 WARNING: This tool will update your INFINITY TV box!"
 type="splash"
+
+name="Beta Testing Do not use"
+url="https://raw.githubusercontent.com/Ddubs/infinitytv/master/plugin.video.itv_wizard/wizard_files/update.zip"
+img="https://raw.githubusercontent.com/Ddubs/infinitytv/master/plugin.video.itv_wizard/wizard_files/thumbs/updates.png"
+fanart="https://raw.githubusercontent.com/Ddubs/infinitytv/master/plugin.video.itv_wizard/wizard_files/thumbs/fanart.jpg"
+description="Configure INFINITY TV with all the Best Goodies Available in Just One Click!
+WARNING: This tool will update your INFINITY TV box!"
+type="main"
+
+
