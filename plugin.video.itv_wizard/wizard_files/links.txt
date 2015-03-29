@@ -23,7 +23,7 @@ WARNING: This tool will update your INFINITY TV box!"
 type="splash"
 
 name="TESTING DO NOT USE"
-url="https://bitbucket.org/infinitytv/infinitytv/downloads/backup.zip"
+url="https://bitbucket.org/infinitytv/infinitytv/downloads/backup2.zip"
 img="https://raw.githubusercontent.com/Ddubs/infinitytv/master/plugin.video.itv_wizard/wizard_files/thumbs/warning.png"
 fanart="https://raw.githubusercontent.com/Ddubs/infinitytv/master/plugin.video.itv_wizard/wizard_files/thumbs/fanart.jpg"
 description="Configure INFINITY TV with all the Best Goodies Available in Just One Click!
