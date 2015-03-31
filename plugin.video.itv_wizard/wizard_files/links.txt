@@ -1,6 +1,6 @@
 name="WARNING"
 url="https://raw.githubusercontent.com/Ddubs/infinitytv/master/plugin.video.itv_wizard/wizard_files/warning.txt"
-img="https://raw.githubusercontent.com/Ddubs/infinitytv/master/plugin.video.itv_wizard/wizard_files/thumbs/warning.png"
+img="https://raw.githubusercontent.com/Ddubs/infinitytv/master/plugin.video.itv_wizard/wizard_files/thumbs/warning1.png"
 fanart="https://raw.githubusercontent.com/Ddubs/infinitytv/master/plugin.video.itv_wizard/wizard_files/thumbs/fanart.jpg"
 description="Configure INFINITY TV with all the Best Goodies Available in Just One Click!
 WARNING: This tool will overwrite your current settings!"
