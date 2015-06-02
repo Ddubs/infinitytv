@@ -188,7 +188,7 @@
 
 <addon
   id="skin.infinitytv"
-  version="0.0.14"
+  version="0.0.15"
   name="INFINITY TV"
   provider-name="INFINITY TV">
 	<requires>
