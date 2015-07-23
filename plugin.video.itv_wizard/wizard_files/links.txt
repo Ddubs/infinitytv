@@ -21,8 +21,3 @@ fanart="https://raw.githubusercontent.com/Ddubs/infinitytv/master/plugin.video.i
 description="Configure INFINITY TV with all the Best Goodies Available in Just One Click!
 WARNING: This tool will update your INFINITY TV box!"
 type="main"
-
-
-
-
-

@@ -43,6 +43,20 @@
   </extension>
 </addon>
 
+<addon id="plugin.video.ustvnow" version="9.9.9" name="ustvnow" provider-name="Lunatixz">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Plays live streams and recordings from ustvnow.com</summary>
+        <description>Live streaming US TV. You MUST log in to view streams (see addon settings). You can also play any recordings you have made on ustvnow.com</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
 <addon id="plugin.video.xbmc-hockey-streams-gotham" name="XBMC Hockey Streams" version="3.0.6" provider-name="Craig McNicholas, Swedemon">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
