@@ -43,17 +43,24 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.ustvnow" version="9.9.9" name="ustvnow" provider-name="Lunatixz">
+<addon id="plugin.video.ustvnow" version="9.9.91" name="USTVnow" provider-name="tvaddons.ag">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
+	 <import addon="script.module.pyxbmctmanager" />
+	 <import addon="script.module.beautifulsoup" />
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
     </extension>
+    <extension library="setup.py" point="xbmc.python.script">
+        <provides>executable</provides>
+    </extension>
     <extension point="xbmc.addon.metadata">
-        <summary>Plays live streams and recordings from ustvnow.com</summary>
-        <description>Live streaming US TV. You MUST log in to view streams (see addon settings). You can also play any recordings you have made on ustvnow.com</description>
+        <summary>Watch All the Major American Television Networks Live in HD for Free!</summary>
+        <description>Watch All the Major American Television Networks Live in HD! Entirely Legal and Free! You can also record content through their web site, and there is an optional premium service available with all kinds of other channels. Signup for a free account through the following link today: http://www.ustvnow.com/newuser_usa.php</description>
         <platform>all</platform>
+        <forum>http://forums.tvaddons.ag/forums/149-USTVNOW-PLUGIN-FOR-KODI</forum>
+        <website>http://www.ustvnow.com/</website>
     </extension>
 </addon>
 
