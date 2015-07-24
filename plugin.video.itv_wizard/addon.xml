@@ -1,20 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.itv_wizard" version="0.0.6"
-	name="INFINITY TV Wizard" provider-name="None">
-	<requires>
-		<import addon="xbmc.python" version="2.1.0"/>
-		<import addon="script.module.addon.common" optional="true" />
-		<import addon="script.module.t0mm0.common" optional="true" />
-		<import addon="script.module.urlresolver" optional="true" />
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="default.py">
-		<provides>executable</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>INFINTY TV Wizard</summary>
-		<description>Instantly configure your xbmc experience with all the best add-ons and goodies!  </description>
-		<platform>all</platform>
-		<forum></forum>
-		<website></website>
-	</extension>
+<addon id="plugin.video.itv_wizard" name="INFINITY TV Wizard" version="0.0.8" provider-name="INFINITY TV">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">INFINITY TV Wizard</summary>
+    <description lang="en">Welcome to INFINITY TV</description>
+    <platform>all</platform>
+  </extension>
 </addon>
