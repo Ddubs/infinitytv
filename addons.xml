@@ -64,7 +64,7 @@
 
 <addon
   id="plugin.video.SportsDevil"
-  version="2015.08.09"
+  version="2015.11.22"
   name="SportsDevil"
   provider-name="MaxMustermann, Al101, Hubbab3, Sattekop">
   <requires>
