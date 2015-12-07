@@ -186,6 +186,20 @@
 	</extension>
 </addon>
 
+<addon id="repository.dk-xbmc-repaddon" name="dk-xbmc-repaddon Add-on Repository" version="1.0.5" provider-name="dk-xbmc-repaddon">
+	<extension point="xbmc.addon.repository" name="dk-xbmc-repaddon Add-on Repository">
+		<info compressed="false">http://raw.githubusercontent.com/dknlght/dkodi/master/addons.xml</info>
+		<checksum>http://raw.githubusercontent.com/dknlght/dkodi/master/addons.xml.md5</checksum>
+		<datadir zip="true">http://raw.githubusercontent.com/dknlght/dkodi/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install Add-ons from dk Add-on Repository</summary>
+		<description>Video plug-ins for XBMC</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="repository.infinitytv" name="INFINITY TV XBMC Plugins" version="1.0.0" provider-name="INFINITY TV">
 	<extension point="xbmc.addon.repository" name="INFINITY TV XBMC Plugins">
 		<info compressed="false">https://raw.githubusercontent.com/Ddubs/infinitytv/master/addons.xml</info>
@@ -215,6 +229,26 @@
 		<summary>MX Repository</summary>
 		<description>Home of the MX add-ons on www.TVaddons.ag only.</description>
 		<disclaimer>These add-ons can change at anytime so please stay updated. Support at www.tvaddons.ag ONLY</disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.shani" name="Shanis Addon Repository" version="2.8" provider-name="Shani">
+	<extension point="xbmc.addon.repository" name="Shanis Addon Repository">
+    <dir>
+            <info compressed="false">https://raw.github.com/Shani-08/ShaniXBMCWork2/master/addons.xml</info>
+            <checksum>https://raw.github.com/Shani-08/ShaniXBMCWork2/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.github.com/Shani-08/ShaniXBMCWork2/master/zips</datadir>
+    </dir>
+
+    <info compressed="false">https://offshoregit.com/Shani-08/main/addons.xml</info>
+    <checksum>https://offshoregit.com/Shani-08/main/addons.xml.md5</checksum>
+    <datadir zip="true">https://offshoregit.com/Shani-08/main/zips</datadir>
+
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Addons related to XBMC for Zemtv etc</summary>
+		<description>Go though the plugins and see what you like</description>
 		<platform>all</platform>
 	</extension>
 </addon>
