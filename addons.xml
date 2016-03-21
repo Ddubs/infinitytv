@@ -24,7 +24,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.itv_wizard" name="INFINITY TV Wizard" version="0.0.31" provider-name="INFINITY TV">
+<addon id="plugin.video.itv_wizard" name="INFINITY TV Wizard" version="0.0.32" provider-name="INFINITY TV">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="plugin.program.infinitytv.notifications" version="1.0.2"/>
@@ -139,6 +139,26 @@
 		<license>GNU GPL v3</license>
 		<disclaimer>Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing.</disclaimer>
 	</extension>
+</addon>
+
+<addon id="plugin.video.xbmchubmaintenance" version="2.1.4"
+	name="Maintenance Tool" provider-name="tvaddons.ag">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="plugin.video.youtube" />
+    <import addon="script.module.addon.common" />
+    <import addon="script.module.metahandler" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Maintenance Tool</summary>
+    <description lang="en">Maintenance Tool is your one stop tool for all fixes and information.</description>
+    <platform>all</platform>
+    <forum>http://forums.tvaddons.ag/forums/130-MAINTENANCE-TOOL</forum>
+    <website>http://www.tvaddons.ag/</website>
+  </extension>
 </addon>
 
 <addon id="plugin.video.ZemTV-shani"
