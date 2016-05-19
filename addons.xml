@@ -24,7 +24,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.exodus" version="2.3.2" name="Exodus" provider-name="Exodus">
+<addon id="plugin.video.exodus" version="2.3.3" name="Exodus" provider-name="Exodus">
 	<requires>
 		<import addon="xbmc.python" version="2.14.0" />
 		<import addon="repository.exodus" version="1.0.0" />
