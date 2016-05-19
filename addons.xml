@@ -455,7 +455,7 @@
 	</extension>
 </addon>
 
-<addon id="weather.yahoo" name="Yahoo! Weather" version="3.3.2" provider-name="ronie">
+<addon id="weather.yahoo" name="Yahoo! Weather" version="3.3.3" provider-name="ronie">
 	<requires>
 		<import addon="xbmc.python" version="2.14.0"/>
 		<import addon="script.module.simplejson" version="3.3.0"/>
